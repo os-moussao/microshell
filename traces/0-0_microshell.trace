@@ -1,0 +1,1923 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r2p10.1337.ma
+Darwin 18.7.0 x86_64
+$> date
+Fri Mar 18 11:56:39 +01 2022
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/4.2.1
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: git@vogsphere-v2.1337.ma:exam-2022-03-18/omoussao_exam-rank-04_exam_19h10m11s.git
+
+= Git history ==================================================================
+$> git -C /tmp/tmpwqt9qsdr/user log --pretty='%H - %an, %ad : %s'
+123356b63bfb52dac183c4afbe86eb5f28ba8318 - Exam 42, Fri Mar 18 11:54:22 2022 +0100 : sdfv
+ 
+= Collected files ==========================================
+$> ls -lAR /tmp/tmpwqt9qsdr/user
+total 8
+-rw-r--r--  1 root  wheel  417 Mar 18 11:56 __GIT_HISTORY
+drwxr-xr-x  6 root  wheel  192 Mar 18 11:56 microshell
+
+/tmp/tmpwqt9qsdr/user/microshell:
+total 32
+-rw-r--r--  1 root  wheel  1972 Mar 18 11:56 exec.c
+-rw-r--r--  1 root  wheel  1132 Mar 18 11:56 main.c
+-rw-r--r--  1 root  wheel   866 Mar 18 11:56 mysh.h
+-rw-r--r--  1 root  wheel  1276 Mar 18 11:56 parse.c
+ 
+= microshell ===================================================================
+['startdtt5opo8/0r1x9oxya/', 'startdtt5opo8/0r1x9oxya/0auq4j8t1/', 'startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk/', 'startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk/f0qohmoch9', 'startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk/f110p04slp', 'startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di/', 'startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di/f04o1i7ukv', 'startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di/f1yytp5lj4', 'startdtt5opo8/0r1x9oxya/0auq4j8t1/f00747ri2i', 'startdtt5opo8/0r1x9oxya/0auq4j8t1/f1fci7ezoy', 'startdtt5opo8/0r1x9oxya/1iogkffok/', 'startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60/', 'startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60/f0gawoi59c', 'startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60/f2nq44pkz5', 'startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7/', 'startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7/f0p81qktb5', 'startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7/f1x60i3zu4', 'startdtt5opo8/0r1x9oxya/1iogkffok/f06yo6c1e4', 'startdtt5opo8/0r1x9oxya/f0szzcemg2', 'startdtt5opo8/0r1x9oxya/f2e3w7otqn', 'startdtt5opo8/1lbc9081w/', 'startdtt5opo8/
+1lbc9081w/0cjcjkj1j/', 'startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k/', 'startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k/f0c312ejcj', 'startdtt5opo8/1lbc9081w/0cjcjkj1j/f03emd1hnz', 'startdtt5opo8/1lbc9081w/0cjcjkj1j/f11ah5z5av', 'startdtt5opo8/1lbc9081w/1uiqint79/', 'startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv/', 'startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv/f0dst8pj7b', 'startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv/f1ovh7rgv9', 'startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7/', 'startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7/f0kid8k86z', 'startdtt5opo8/1lbc9081w/1uiqint79/f0vczh16c6', 'startdtt5opo8/1lbc9081w/1uiqint79/f2sh8w9c10', 'startdtt5opo8/1lbc9081w/f0tccc7qzh', 'startdtt5opo8/1lbc9081w/f1567sjmh8', 'startdtt5opo8/f0flrc1c2e', 'startdtt5opo8/f2bbunw6wq']
+================================================================================
+Generating test 1
+Cmd ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+D
+one
+================================================================================
+()
+================================================================================
+Generating test 2
+Cmd ----------------------------------------------------------------------------
+/usr/bin/ls ./startdtt5opo8 ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" /usr/bin/ls ./startdtt5opo8
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 3
+Cmd ----------------------------------------------------------------------------
+cd ./startdtt5opo8
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 4
+Cmd ----------
+------------------------------------------------------------------
+cd ./startdtt5opo8; cd ..; cd ./startdtt5opo8
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 5
+Cmd ----------------------------------------------------------------------------
+/usr/bin/ls -laR startdtt5opo8
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 6
+Cmd ----------------------------------------------------------------------------
+/usr/bin/ls -laR startdtt5opo8 "|" /usr/bin/grep start
+--------------------------------------------------------------------------------
+Done
+=======================================
+=========================================
+()
+================================================================================
+Generating test 7
+Cmd ----------------------------------------------------------------------------
+/usr/bin/ls -laR startdtt5opo8doesexist "|" /usr/bin/grep start
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 8
+Cmd ----------------------------------------------------------------------------
+/usr/bin/ls -laR startdtt5opo8 "|" /usr/bin/grep start "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/
+bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/
+cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 9
+Cmd ----------------------------------------------------------------------------
+/usr/bin/ls startdtt5opo8 ";" /usr/bin/cat  startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk/f0qohmoch9 "|" /usr/bin/grep h "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /us
+r/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bi
+n/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/c
+at -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -
+e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "
+|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" 
+/usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr
+/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 10
+Cmd ----------------------------------------------------------------------------
+/usr/bin/ls startdtt5opo8 ";" /usr/bin/cat  startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk/f0qohmoch9 "|" /usr/bin/grep b "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "
+|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /
+usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr
+/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bi
+n/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/ca
+t -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -
+e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|
+" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 11
+Cmd ----------------------------------------------------------------------------
+/usr/bin/ls startdtt5opo8 ";" /usr/bin/cat  startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk/f0qohmoch9 "|" /usr/bin/grep v "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/ca
+t -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e
+ "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|
+" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /
+usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/
+bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin
+/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat
+ -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 12
+Cmd ----------------------------------------------------------------------------
+cd ";" /usr/bin/ls startdtt5opo8
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 13
+Cmd ----------------------------------------------------------------------------
+cd ";" /usr/bin/ls startdtt5opo8 2> /tmp/myerrors; /usr/bin/cat /tmp/myerrors
+-------------------------------------------------------------------
+-------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 14
+Cmd ----------------------------------------------------------------------------
+/usr/bin/ls startdtt5opo8 /usr/bin/ls startdtt5opo8 "|" /usr/bin/grep ___ 2> /tmp/myerrors; /usr/bin/cat /tmp/myerrors
+--------------------------------------------------------------------------------
+Done
+================================================================================
+()
+================================================================================
+Generating test 15
+Cmd ----------------------------------------------------------------------------
+ls startdtt5opo8 "|" /usr/bin/grep ___ ";" /usr/bin/cp /usr/bin/grep startdtt5opo8/ ";" /usr/bin/ls startdtt5opo8 "|" startdtt5opo8/grep grep 2> /tmp/myerrors; /usr/bin/cat /tmp/myerrors
+--------------------------------------------------------------------------------
+Do
+ne
+================================================================================
+()
+
+
+$> gcc -Wextra -Wall -Werror exec.c main.c parse.c -o user_exe 
+
+
+
+_cd
+_exec
+_fork1
+_pipe1
+
+
+
+_main
+_putstr
+
+
+
+_accept_fg
+_new_tree
+_parse
+_parse_list
+_parse_pline
+
+
+
+
+__stack_chk_fail
+__stack_chk_guard
+chdir
+close
+dup2
+execve
+exit
+fork
+pipe
+putstr
+strcmp
+waitpid
+write
+
+
+
+exec
+exit
+parse
+write
+
+
+
+exit
+malloc
+strcmp
+write
+
+
+$> gcc -Wextra -Wall -Werror main.c -o ref_exe 
+
+
+= Test 1 ===================================================
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9404 Mar 18 10:56 smkn805s16q7k02mh4wafdxi
+
+
+$> ulimit -n 30; ./smkn805s16q7k02mh4wafdxi 
+
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9268 Mar 18 10:56 smkn805s16q7k02mh4wafdxi
+
+
+$> ulimit -n 30; ./smkn805s16q7k02mh4wafdxi 
+
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+
+Diff OK :D
+= Test 2 ===================================================
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9404 Mar 18 10:56 mwnqg3ka63rciotf55qqcrfi
+drwxr-xr-x  6 deepthought  deepthought   192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--
+r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r-- 
+ 1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthough
+t  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./mwnqg3ka63rciotf55qqcrfi /usr/bin/ls ./startdtt5opo8 ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" /usr/bin/ls ./startdtt5opo8
+0r1x9oxya
+1lbc9081w
+f0flrc1c2e
+f2bbunw6wq
+0r1x9oxya
+1lbc9081w
+f0flrc1c2e
+f2bbunw6wq
+
+
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9268 Mar 18 10:56 mwnqg3ka63rciotf55qqcrfi
+drwxr-xr-x  6 deepthought  deepthought   192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--
+r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r-- 
+ 1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthough
+t  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./mwnqg3ka63rciotf55qqcrfi /usr/bin/ls ./startdtt5opo8 ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" ";" /usr/bin/ls ./startdtt5opo8
+0r1x9oxya
+1lbc9081w
+f0flrc1c2e
+f2bbunw6wq
+0r1x9oxya
+1lbc9081w
+f0flrc1c2e
+f2bbunw6wq
+
+
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+
+Diff OK :D
+= Test 3 ===================================================
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9404 Mar 18 10:56 rz4g04tj8vge0waprfpaijx3
+drwxr-xr-x  6 deepthought  deepthought   192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--
+r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r-- 
+ 1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthough
+t  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./rz4g04tj8vge0waprfpaijx3 cd ./startdtt5opo8
+
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9268 Mar 18 10:56 rz4g04tj8vge0waprfpaijx3
+drwxr-xr-x  6 deepthought  deepthought   192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--
+r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r-- 
+ 1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthough
+t  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./rz4g04tj8vge0waprfpaijx3 cd ./startdtt5opo8
+
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+
+Diff OK :D
+= Test 4 ===================================================
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9404 Mar 18 10:56 0gr4pxmqidied8xqtsfelgx6
+drwxr-xr-x  6 deepthought  deepthought   192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--
+r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r-- 
+ 1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthough
+t  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./0gr4pxmqidied8xqtsfelgx6 cd ./startdtt5opo8; cd ..; cd ./startdtt5opo8
+/bin/sh: line 0: cd: ./startdtt5opo8: No such file or directory
+
+
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9268 Mar 18 10:56 0gr4pxmqidied8xqtsfelgx6
+drwxr-xr-x  6 deepthought  deepthought   192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--
+r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r-- 
+ 1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthough
+t  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./0gr4pxmqidied8xqtsfelgx6 cd ./startdtt5opo8; cd ..; cd ./startdtt5opo8
+/bin/sh: line 0: cd: ./startdtt5opo8: No such file or directory
+
+
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+
+Diff OK :D
+= Test 5 ===================================================
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9404 Mar 18 10:56 9f1pexjrr4001hxmtucygtw5
+drwxr-xr-x  6 deepthought  deepthought   192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--
+r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r-- 
+ 1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthough
+t  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./9f1pexjrr4001hxmtucygtw5 /usr/bin/ls -laR startdtt5opo8
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwx------  4 deepthought  deepthought  128 Mar 18 10:56 ..
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  4 deepthought  deepthought
+  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-
+x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r--  1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 
+0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 .
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  4 deepthought  deepthought 
+ 128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthought  174 Mar 18 10:56 f2sh8w9c10
+
+startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  9268 Mar 18 10:56 9f1pexjrr4001hxmtucygtw5
+drwxr-xr-x  6 deepthought  deepthought   192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--
+r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r-- 
+ 1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthough
+t  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./9f1pexjrr4001hxmtucygtw5 /usr/bin/ls -laR startdtt5opo8
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwx------  4 deepthought  deepthought  128 Mar 18 10:56 ..
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  4 deepthought  deepthought
+  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-
+x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r--  1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 
+0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 .
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+drwxr-xr-x  4 deepthought  deepthought 
+ 128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthought  174 Mar 18 10:56 f2sh8w9c10
+
+startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 .
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 ..
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+
+Diff OK :D
+= Test 6 ===================================================
+total 96
+-rwxr-xr-x  1 deepthought  deepthought  33952 Mar 18 10:56 grep
+-rwxr-xr-x  1 deepthought  deepthought   9404 Mar 18 10:56 pbi867sf4l9ht3uc9ismm5dn
+drwxr-xr-x  6 deepthought  deepthought    192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r-
+-  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1
+ deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r--  1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought 
+  14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthought  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./pbi867sf4l9ht3uc9ismm5dn /usr/bin/ls -laR startdtt5opo8 "|" /usr/bin/grep start
+startdtt5opo8/0r1x9oxya:
+startdtt5opo8/0r1x9oxya/0auq4j8t1:
+startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+startdtt5opo8/0r1x9oxya/1iogkffok:
+startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+startdtt5opo8/1lbc9081w:
+startdtt5opo8/1lbc9081w/0cjcjkj1j:
+startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+startdtt5opo8/1lbc9081w/1uiqint79:
+startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+
+
+total 96
+-rwxr-xr-x  1 deepthought  deepthought  33952 Mar 18 10:56 grep
+-rwxr-xr-x  1 deepthought  deepthought   9268 Mar 18 10:56 pbi867sf4l9ht3uc9ismm5dn
+drwxr-xr-x  6 deepthought  deepthought    192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r-
+-  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1
+ deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r--  1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought 
+  14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthought  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./pbi867sf4l9ht3uc9ismm5dn /usr/bin/ls -laR startdtt5opo8 "|" /usr/bin/grep start
+startdtt5opo8/0r1x9oxya:
+startdtt5opo8/0r1x9oxya/0auq4j8t1:
+startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+startdtt5opo8/0r1x9oxya/1iogkffok:
+startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+startdtt5opo8/1lbc9081w:
+startdtt5opo8/1lbc9081w/0cjcjkj1j:
+startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+startdtt5opo8/1lbc9081w/1uiqint79:
+startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+
+
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+
+Diff OK :D
+= Test 7 ===================================================
+total 96
+-rwxr-xr-x  1 deepthought  deepthought   9404 Mar 18 10:56 9q8to68u0avvges5g48ejmun
+-rwxr-xr-x  1 deepthought  deepthought  33952 Mar 18 10:56 grep
+
+
+$> ulimit -n 30; ./9q8to68u0avvges5g48ejmun /usr/bin/ls -laR startdtt5opo8doesexist "|" /usr/bin/grep start
+ls: startdtt5opo8doesexist: No such file or directory
+
+
+total 96
+-rwxr-xr-x  1 deepthought  deepthought   9268 Mar 18 10:56 9q8to68u0avvges5g48ejmun
+-rwxr-xr-x  1 deepthought  deepthought  33952 Mar 18 10:56 grep
+
+
+$> ulimit -n 30; ./9q8to68u0avvges5g48ejmun /usr/bin/ls -laR startdtt5opo8doesexist "|" /usr/bin/grep start
+ls: startdtt5opo8doesexist: No such file or directory
+
+
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+
+Diff OK :D
+= Test 8 ===================================================
+total 96
+-rwxr-xr-x  1 deepthought  deepthought  33952 Mar 18 10:56 grep
+-rwxr-xr-x  1 deepthought  deepthought   9404 Mar 18 10:56 jlbjx2snrt4w193lcvqpon7f
+drwxr-xr-x  6 deepthought  deepthought    192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r-
+-  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1
+ deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r--  1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought 
+  14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthought  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./jlbjx2snrt4w193lcvqpon7f /usr/bin/ls -laR startdtt5opo8 "|" /usr/bin/grep start "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e
+startdtt5opo8/0r1x9oxya:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/0auq4j8t1:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/1iogkffok:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/0cjcjkj1j:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/1uiqint79:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+total 96
+-rwxr-xr-x  1 deepthought  deepthought  33952 Mar 18 10:56 grep
+-rwxr-xr-x  1 deepthought  deepthought   9268 Mar 18 10:56 jlbjx2snrt4w193lcvqpon7f
+drwxr-xr-x  6 deepthought  deepthought    192 Mar 18 10:56 startdtt5opo8
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r-
+-  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1
+ deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r--  1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought 
+  14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthought  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./jlbjx2snrt4w193lcvqpon7f /usr/bin/ls -laR startdtt5opo8 "|" /usr/bin/grep start "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e
+startdtt5opo8/0r1x9oxya:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/0auq4j8t1:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/1iogkffok:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/0cjcjkj1j:$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/1uiqint79:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+
+Diff OK :D
+= Test 9 ===================================================
+total 104
+-rw-r--r--  1 deepthought  deepthought     48 Mar 18 10:56 f0qohmoch9
+-rwxr-xr-x  1 deepthought  deepthought  33952 Mar 18 10:56 grep
+drwxr-xr-x  6 deepthought  deepthought    192 Mar 18 10:56 startdtt5opo8
+-rwxr-xr-x  1 deepthought  deepthought   9404 Mar 18 10:56 tv6eaqvuk88sxlj6yck61h7f
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr
+-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r--  1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthou
+ght   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthought  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./tv6eaqvuk88sxlj6yck61h7f /usr/bin/ls startdtt5opo8 ";" /usr/bin/cat  startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk/f0qohmoch9 "|" /usr/bin/grep h "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e
+0r1x9oxya
+1lbc9081w
+f0flrc1c2e
+f2bbunw6wq
+
+error: fatal
+
+
+total 104
+-rw-r--r--  1 deepthought  deepthought     48 Mar 18 10:56 f0qohmoch9
+-rwxr-xr-x  1 deepthought  deepthought  33952 Mar 18 10:56 grep
+drwxr-xr-x  6 deepthought  deepthought    192 Mar 18 10:56 startdtt5opo8
+-rwxr-xr-x  1 deepthought  deepthought   9268 Mar 18 10:56 tv6eaqvuk88sxlj6yck61h7f
+
+./startdtt5opo8:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0r1x9oxya
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1lbc9081w
+-rw-r--r--  1 deepthought  deepthought  481 Mar 18 10:56 f0flrc1c2e
+-rw-r--r--  1 deepthought  deepthought  303 Mar 18 10:56 f2bbunw6wq
+
+./startdtt5opo8/0r1x9oxya:
+total 16
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 0auq4j8t1
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 1iogkffok
+-rw-r--r--  1 deepthought  deepthought  269 Mar 18 10:56 f0szzcemg2
+-rw-r--r--  1 deepthought  deepthought  389 Mar 18 10:56 f2e3w7otqn
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0n2dvwslk
+drwxr
+-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 17mdk55di
+-rw-r--r--  1 deepthought  deepthought  424 Mar 18 10:56 f00747ri2i
+-rw-r--r--  1 deepthought  deepthought   77 Mar 18 10:56 f1fci7ezoy
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk:
+total 16
+-rw-r--r--  1 deepthought  deepthought   48 Mar 18 10:56 f0qohmoch9
+-rw-r--r--  1 deepthought  deepthought  483 Mar 18 10:56 f110p04slp
+
+./startdtt5opo8/0r1x9oxya/0auq4j8t1/17mdk55di:
+total 16
+-rw-r--r--  1 deepthought  deepthought  702 Mar 18 10:56 f04o1i7ukv
+-rw-r--r--  1 deepthought  deepthought  304 Mar 18 10:56 f1yytp5lj4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok:
+total 8
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0bmhv2f60
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 1ssy6ryj7
+-rw-r--r--  1 deepthought  deepthought  382 Mar 18 10:56 f06yo6c1e4
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/0bmhv2f60:
+total 16
+-rw-r--r--  1 deepthought  deepthought  438 Mar 18 10:56 f0gawoi59c
+-rw-r--r--  1 deepthought  deepthought  352 Mar 18 10:56 f2nq44pkz5
+
+
+./startdtt5opo8/0r1x9oxya/1iogkffok/1ssy6ryj7:
+total 16
+-rw-r--r--  1 deepthought  deepthought    6 Mar 18 10:56 f0p81qktb5
+-rw-r--r--  1 deepthought  deepthought  507 Mar 18 10:56 f1x60i3zu4
+
+./startdtt5opo8/1lbc9081w:
+total 16
+drwxr-xr-x  5 deepthought  deepthought  160 Mar 18 10:56 0cjcjkj1j
+drwxr-xr-x  6 deepthought  deepthought  192 Mar 18 10:56 1uiqint79
+-rw-r--r--  1 deepthought  deepthought  464 Mar 18 10:56 f0tccc7qzh
+-rw-r--r--  1 deepthought  deepthought  447 Mar 18 10:56 f1567sjmh8
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j:
+total 16
+drwxr-xr-x  3 deepthought  deepthought   96 Mar 18 10:56 0yem92c3k
+-rw-r--r--  1 deepthought  deepthought  584 Mar 18 10:56 f03emd1hnz
+-rw-r--r--  1 deepthought  deepthought  522 Mar 18 10:56 f11ah5z5av
+
+./startdtt5opo8/1lbc9081w/0cjcjkj1j/0yem92c3k:
+total 8
+-rw-r--r--  1 deepthought  deepthought  214 Mar 18 10:56 f0c312ejcj
+
+./startdtt5opo8/1lbc9081w/1uiqint79:
+total 16
+drwxr-xr-x  4 deepthought  deepthought  128 Mar 18 10:56 0zlfn7fjv
+drwxr-xr-x  3 deepthought  deepthou
+ght   96 Mar 18 10:56 2d8yea0z7
+-rw-r--r--  1 deepthought  deepthought   14 Mar 18 10:56 f0vczh16c6
+-rw-r--r--  1 deepthought  deepthought  174 Mar 18 10:56 f2sh8w9c10
+
+./startdtt5opo8/1lbc9081w/1uiqint79/0zlfn7fjv:
+total 16
+-rw-r--r--  1 deepthought  deepthought  557 Mar 18 10:56 f0dst8pj7b
+-rw-r--r--  1 deepthought  deepthought   76 Mar 18 10:56 f1ovh7rgv9
+
+./startdtt5opo8/1lbc9081w/1uiqint79/2d8yea0z7:
+total 8
+-rw-r--r--  1 deepthought  deepthought  195 Mar 18 10:56 f0kid8k86z
+
+
+$> ulimit -n 30; ./tv6eaqvuk88sxlj6yck61h7f /usr/bin/ls startdtt5opo8 ";" /usr/bin/cat  startdtt5opo8/0r1x9oxya/0auq4j8t1/0n2dvwslk/f0qohmoch9 "|" /usr/bin/grep h "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e  "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e "|" /usr/bin/cat -e
+0r1x9oxya
+1lbc9081w
+f0flrc1c2e
+f2bbunw6wq
+
+
+$> diff -U 3 user_output_test9 test9.output | cat -e
+--- user_output_test9	2022-03-18 10:56:49.000000000 +0000$
++++ test9.output	2022-03-18 10:56:50.000000000 +0000$
+@@ -2,4 +2,3 @@$
+ 1lbc9081w$
+ f0flrc1c2e$
+ f2bbunw6wq$
+-error: fatal$
+
+
+--- user_output_test9	2022-03-18 10:56:49.000000000 +0000$
++++ test9.output	2022-03-18 10:56:50.000000000 +0000$
+@@ -2,4 +2,3 @@$
+ 1lbc9081w$
+ f0flrc1c2e$
+ f2bbunw6wq$
+-error: fatal$
+
+Diff KO :(
+Grade: 0
+
+= Final grade: 0 ===============================================================
